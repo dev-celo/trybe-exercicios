@@ -1,8 +1,8 @@
 const a = 10;
 const b = 5;
 
-let multiplicacao;
+let divisao;
 
-multiplicacao = a * b;
+divisao = a / b;
 
-console.log(multiplicacao);
+console.log(divisao);
