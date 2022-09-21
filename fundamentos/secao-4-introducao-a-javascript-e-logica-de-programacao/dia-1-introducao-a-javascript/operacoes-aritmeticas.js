@@ -1,8 +1,8 @@
 const a = 10;
 const b = 5;
 
-let adicao;
+let subtracao;
 
-adicao = a + b;
+subtracao = a - b;
 
-console.log(adicao);
+console.log(subtracao);
