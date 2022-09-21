@@ -1,8 +1,8 @@
 const a = 10;
 const b = 5;
 
-let divisao;
+let restoDivisao;
 
-divisao = a / b;
+restoDivisao = a % b;
 
-console.log(divisao);
+console.log(restoDivisao);
