@@ -7,4 +7,4 @@ for (let index = 0; index < numbers.length; index++) {
   }
 }
 
-odd > 0 ? console.log(`Quantidade de impares: ${odd}`) : console.log('nenhum valor ímpar encontrado');;
+odd > 0 ? console.log(`Quantidade de impares: ${odd}`) : console.log('nenhum valor ímpar encontrado');
