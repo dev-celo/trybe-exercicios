@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+header {
+    background-color: rgb(39, 37, 37);
+    color: rgb(231, 239, 247);
+}
+
+section {
+    border: 1px solid white;
+}
+
