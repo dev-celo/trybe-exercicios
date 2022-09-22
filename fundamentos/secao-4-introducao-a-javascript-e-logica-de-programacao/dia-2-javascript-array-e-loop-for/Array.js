@@ -1,10 +1,6 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let smaller = 10000000;
+let numbers = Array();
 
-for (let index = 0; index < numbers.length; index++) {
-  if(numbers[index] < smaller) {
-    smaller = numbers[index]
-  }
+for (let index = 0; index < 25; index++) {
+  numbers[index] = index + 1;
+  console.log(`array[${index}]: ${numbers[index]}`);
 }
-
-console.log(`Menor número: ${smaller}`);
