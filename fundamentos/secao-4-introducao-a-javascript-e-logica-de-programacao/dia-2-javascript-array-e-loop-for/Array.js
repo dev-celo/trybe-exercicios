@@ -1,10 +1,10 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let odd = 0;
+let smaller = 10000000;
 
 for (let index = 0; index < numbers.length; index++) {
-  if(numbers[index] % 2 !== 0) {
-    odd++;
+  if(numbers[index] < smaller) {
+    smaller = numbers[index]
   }
 }
 
-odd > 0 ? console.log(`Quantidade de impares: ${odd}`) : console.log('nenhum valor ímpar encontrado');
+console.log(`Menor número: ${smaller}`);
