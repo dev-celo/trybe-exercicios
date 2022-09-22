@@ -7,4 +7,4 @@ for(let number of numbers) {
   media = sum/numbers.length
 }
 
-console.log(media);
+media > 20 ? console.log('Maior que 20') : console.log('Menor que 20');
