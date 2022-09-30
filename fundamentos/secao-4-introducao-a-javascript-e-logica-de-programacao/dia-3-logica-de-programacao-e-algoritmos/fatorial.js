@@ -4,10 +4,14 @@
 // Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
 
 let number = 4;
-let fatorial = 1
 
-for(fatorial; number > 1; number -= 1) {
-  fatorial *= number;
+function factorial(number) {
+  let fatorial = 1;
+  
+  for(fatorial; number > 1; number -= 1) {
+    fatorial *= number;
+  }
+  return fatorial;
 }
 
-console.log(fatorial);
+factorial(number);

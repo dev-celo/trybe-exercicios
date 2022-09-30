@@ -3,10 +3,14 @@
 // let word = 'tryber';
 
 let word = 'tryber';
-newWord = ''
 
-for(let string = word.length - 1; string >=0; string -= 1) {
-  newWord += word[string]
+function invertePalavra(word) {
+  let newWord = ''
+  
+  for(let string = word.length - 1; string >=0; string -= 1) {
+    newWord += word[string]
+  }
+  return newWord;
 }
 
-console.log(newWord);
+invertePalavra(word)
