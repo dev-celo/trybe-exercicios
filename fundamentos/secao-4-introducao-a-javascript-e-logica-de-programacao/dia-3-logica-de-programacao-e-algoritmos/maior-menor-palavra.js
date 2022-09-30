@@ -8,21 +8,28 @@ let array = ['java', 'javascript', 'python', 'html', 'css'];
 
 function maiorPalavra(array) {
   let maiorPalavra = 0;
-  let menorPalavra = 1000;
   let novaMaiorPalavra;
-  let novaMenorPalavra;
 
   for(let index = 0; index < array.length; index++) {
     if(array[index].length > maiorPalavra){
       maiorPalavra = array[index].length;
       novaMaiorPalavra = array[index];
     };
+  }
+  return novaMaiorPalavra;
+}
+function menorPalavra(array) {
+  let menorPalavra = 1000;
+  let novaMenorPalavra;
+
+  for(let index = 0; index < array.length; index++) {
     if(array[index].length < menorPalavra){
       menorPalavra = array[index].length;
       novaMenorPalavra = array[index];
     }
   }
-  return novaMaiorPalavra + novaMenorPalavra;
+  return novaMenorPalavra;
 }
 
-maiorPalavra(array);
+console.log(maiorPalavra(array));
+console.log(menorPalavra(array));
