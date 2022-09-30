@@ -1,4 +1,4 @@
-//Adição entre dois números
+//Multiplicação entre dois números
 
 let numberA = 13;
 let numberB = 2;

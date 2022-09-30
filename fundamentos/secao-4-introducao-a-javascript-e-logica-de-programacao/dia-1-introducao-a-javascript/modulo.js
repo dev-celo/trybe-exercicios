@@ -1,4 +1,4 @@
-//Adição entre dois números
+//Resto da divisão entre dois números
 
 let numberA = 2;
 let numberB = 2;
