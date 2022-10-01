@@ -3,17 +3,19 @@
 // Array de teste: [2, 3, 6, 7, 10, 1];.
 
 // Valor esperado no retorno da função: 4.
-const numbers = [2, 3, 6, 7, 10, 1];
+const numbers = [2, 3, 6, 15, 10, 1];
 
 function indexMaiorValor(array) {
   let maior = 0;
+  let position = 0;
 
   for(number in array) {
     if(array[number] > maior) {
-      maior = number;
+      maior = array[number];
+      position = number;
     }
   }
-  console.log(maior);
+  console.log(position);
 }
 
 indexMaiorValor(numbers);
