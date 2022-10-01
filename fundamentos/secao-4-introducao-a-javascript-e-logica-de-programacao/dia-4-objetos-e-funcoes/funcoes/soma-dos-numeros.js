@@ -9,6 +9,10 @@ let number = 5;
 function sumOfNumber(number) {
   let sum = 0;
 
+  if(number <= 0) {
+    console.log('Entre com número inteiro positivo.');
+  }
+
   for(count = 1; count <= number; count += 1) {
     sum += count;
   }
