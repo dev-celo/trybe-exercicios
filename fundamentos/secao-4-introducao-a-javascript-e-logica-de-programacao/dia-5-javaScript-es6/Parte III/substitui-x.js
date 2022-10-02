@@ -9,4 +9,15 @@ let substituaX = (string) => {
   return resultado;
 }
 
-console.log(substituaX(nome));
+let minhasSkills = (substituaX) => {
+  const skills = ['git/GitHub','HTML semântico', 'CSS'];
+
+  return `${substituaX } 
+  Minhas 3 competências são:
+  ${skills[0]}
+  ${skills[1]}
+  ${skills[2]}
+  `
+}
+
+console.log(minhasSkills(substituaX(nome)));
