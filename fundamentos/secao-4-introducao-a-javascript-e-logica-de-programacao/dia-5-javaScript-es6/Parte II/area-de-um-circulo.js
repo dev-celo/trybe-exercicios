@@ -9,4 +9,4 @@ let circleArea = (raio) => {
   return area;
 }
 
-console.log(circleArea(raio));
+console.log(`Essa é a área do círculo: ${circleArea(raio)}`);
