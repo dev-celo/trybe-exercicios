@@ -1,0 +1,47 @@
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  letter-spacing: normal;
+  box-shadow: none;
+}
+
+body {
+  background-color: rgb(91, 92, 95);
+}
+
+header {
+  background-color: rgb(27, 27, 31);
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header label {
+  margin-right: .5rem;
+}
+
+header input {
+  border: 0;
+}
+
+header input:hover {
+  cursor: pointer;
+}
+
+article {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+article section h2 {
+  padding: .5rem;
+  margin-bottom: 3%;
+}
+
+article section p {
+  padding: .5rem;
+}
+
