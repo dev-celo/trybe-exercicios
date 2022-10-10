@@ -9,81 +9,82 @@
   <title>TrybeTrip</title>
 </head>
 <body>
-  <header>
-    <h1>TrybeTrip</h1>
+  <header class="navbar">
+    <h1 class="display-6 p-3">TrybeTrip</h1>
   </header>
 
-  <section id="formBody">
+  <section class="container container-sm">
     <form action="" method="get">
       <fieldset>
         <section class="inputs">
-          <label for="name">Nome:
-            <input type="text" name="name" id="name" minlength="5" maxlength="40">
+          <label for="name"  class="form-check-label">Nome:
+            <input class="form-control" type="text" name="name" id="name" minlength="5" maxlength="40">
           </label>
         </section>
   
         <section class="inputs">
-          <label for="name">Email:
-            <input type="email" name="email" id="email" required minlength="10" maxlength="50">
+          <label for="name"  class="form-check-label">Email:
+            <input class="form-control" type="email" name="email" id="email" required minlength="10" maxlength="50">
           </label>
         </section>
   
-        <section class="inputs">
+        <section class="inputs mt-3">
           <h2>Destino preferido:</h2>
-          <label for="name-1">
-            <input type="radio" name="name" id="name-1" value="cid">
+          <label for="name-1"  class="form-check-label ms-2">
+            <input class="form-check-input" type="radio" name="opcao" id="name-1" value="cid" checked>
             Cidade
           </label>
   
-          <label for="name-2">
-            <input type="radio" name="opcao" id="name-2" value="cam">
+          <label for="name-2"  class="form-check-label ms-2">
+            <input class="form-check-input" type="radio" name="opcao" id="name-2" value="cam">
             Campo
           </label>
   
-          <label for="name-3">
-            <input type="radio" name="opcao" id="name-3" value="pra">
+          <label for="name-3"  class="form-check-label ms-2">
+            <input class="form-check-input" type="radio" name="opcao" id="name-3" value="pra">
             Praia
           </label>
   
-          <label for="name-4">
-            <input type="radio" name="opcao" id="name-4" value="mon">
+          <label for="name-4"  class="form-check-label ms-2">
+            <input class="form-check-input" type="radio" name="opcao" id="name-4" value="mon">
             Montanhas
           </label>
         </section>
   
-        <section class="inputs">
-          <h2>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip:</h2>
-          <textarea name="resposta" id="resposta" cols="30" rows="10" maxlength="500"></textarea>
+        <section class="mb-4 mt-4">
+          <h2 class="w-50">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip:</h2>
+          <textarea class="form-control w-50" name="resposta" id="resposta" cols="30" rows="10" maxlength="500"></textarea>
         </section>
   
-        <section id="data" class="inputs">
-          <label for="data">Data: 
-            <input type="date" name="data" id="data">
+        <section id="data" class="container">
+          <label for="data"  class="form-label">Data: 
+            <input class="form-control" type="date" name="data" id="data">
           </label>
         </section>
   
-        <section id="ofertas">
+        <section id="ofertas mt-3">
           <section class="inputs">
-            <label for="ofertas">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
-              <input type="checkbox" name="ofertas" id="ofertas">
+            <label for="ofertas"  class="form-check-label">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+              <input class="form-check-input" type="checkbox" name="ofertas" id="ofertas">
             </label>
           </section>
   
           <section class="inputs">
-            <label for="termos">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
-              <input type="checkbox" name="termos" id="termos" value="concordo com os termos" required>
+            <label for="termos"  class="form-label">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+              <input class="form-check-input" type="checkbox" name="termos" id="termos" value="concordo com os termos" required>
             </label>
           </section>
         </section>
       </fieldset>
-        <section class="inputs">
-          <button id="submit" type="submit">Enviar</button>
-          <button type="reset">Apagar</button>
-        </section>
-      </form>
+    
+      <section class="container mt-2">
+        <button class="btn btn-success" id="submit" type="submit">Enviar</button>
+        <button class="btn btn-danger" type="reset">Apagar</button>
+      </section>
+    </form>
   </section>
 
-  <footer>
+  <footer class="card-footer display-6 d-flex justify-content-center p-2 mt-3">
     <h3>&copy; Marcelo H P Silva Turma 27 A</h3>
   </footer>
 

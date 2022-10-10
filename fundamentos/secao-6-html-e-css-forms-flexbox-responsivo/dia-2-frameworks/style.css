@@ -2,11 +2,7 @@
   margin: 0;
   padding: 0;
   box-shadow: none;
-}
-
-body {
-  width: 90%;
-  margin: auto;
+  box-sizing: border-box;
 }
 
 header {
@@ -14,10 +10,6 @@ header {
   color: white;
   padding: 1rem;
   margin-bottom: 5%;
-}
-
-.inputs {
-  margin-bottom: .5rem;
 }
 
 h2 {
@@ -36,12 +28,4 @@ button {
 
 button:hover {
   cursor: pointer;
-}
-
-footer {
-  background-color: rgb(58, 56, 56);
-  color: white;
-  padding: 1rem;
-  margin-bottom: 5%;
-  margin-top: 5%;
 }
