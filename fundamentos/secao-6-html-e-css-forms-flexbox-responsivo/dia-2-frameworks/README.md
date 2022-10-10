@@ -4,7 +4,7 @@
 Recomendação: Bootstrap.
 
 #### Formulário 6.1:
-<img src='./atividadeForm.png' alt="Formulário realizado na aula 6.1"/>
+<img src='./formulario-6.1.png' alt="Formulário realizado na aula 6.1"/>
 
 Outras sugestões: 
 1.Bulma
