@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <header>
+    <h1>TrybeTrip</h1>
+  </header>
+
+  <section id="formBody">
+    <form action="" method="get">
+      <fieldset>
+        <section class="inputs">
+          <label for="name">Nome:
+            <input type="text" name="name" id="name" minlength="5" maxlength="40">
+          </label>
+        </section>
+  
+        <section class="inputs">
+          <label for="name">Email:
+            <input type="email" name="email" id="email" required minlength="10" maxlength="50">
+          </label>
+        </section>
+  
+        <section class="inputs">
+          <h2>Destino preferido:</h2>
+          <label for="name-1">
+            <input type="radio" name="name" id="name-1" value="cid">
+            Cidade
+          </label>
+  
+          <label for="name-2">
+            <input type="radio" name="opcao" id="name-2" value="cam">
+            Campo
+          </label>
+  
+          <label for="name-3">
+            <input type="radio" name="opcao" id="name-3" value="pra">
+            Praia
+          </label>
+  
+          <label for="name-4">
+            <input type="radio" name="opcao" id="name-4" value="mon">
+            Montanhas
+          </label>
+        </section>
+  
+        <section class="inputs">
+          <h2>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip:</h2>
+          <textarea name="resposta" id="resposta" cols="30" rows="10" maxlength="500"></textarea>
+        </section>
+  
+        <section id="data" class="inputs">
+          <label for="data">Data: 
+            <input type="date" name="data" id="data">
+          </label>
+        </section>
+  
+        <section id="ofertas">
+          <section class="inputs">
+            <label for="ofertas">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+              <input type="checkbox" name="ofertas" id="ofertas">
+            </label>
+          </section>
+  
+          <section class="inputs">
+            <label for="termos">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+              <input type="checkbox" name="termos" id="termos" value="concordo com os termos" required>
+            </label>
+          </section>
+        </section>
+      </fieldset>
+        <section class="inputs">
+          <button id="submit" type="submit">Enviar</button>
+          <button type="reset">Apagar</button>
+        </section>
+      </form>
+  </section>
+
+  <footer>
+    <h3>&copy; Marcelo H P Silva Turma 27 A</h3>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

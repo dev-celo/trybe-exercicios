@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(58, 56, 56);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 5%;
+}
+
+.inputs {
+  margin-bottom: .5rem;
+}
+
+h2 {
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+fieldset {
+  padding: 1rem;
+}
+
+button {
+  margin-top: .5rem;
+  padding: .5rem 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(58, 56, 56);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
