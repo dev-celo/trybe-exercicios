@@ -7,7 +7,7 @@ const picker = new Pikaday({
   field: document.getElementById('data'),
   firstDay: 1,
   minDate: new Date(ano, (mes - 1), dia),
-  maxDate: new Date(2022, (mes - 1), 31),
+  maxDate: new Date(2023, (mes - 1), 31),
   yearRange: [2020, 2023],
   format: 'DD/MM/YYYY',
   toString(date, format) {
