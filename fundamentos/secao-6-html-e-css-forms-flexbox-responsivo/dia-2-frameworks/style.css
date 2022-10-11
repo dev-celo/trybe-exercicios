@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html body {
+  background-color: rgb(72, 76, 80);
+  color: aliceblue;
+}
+
 header {
   background-color: rgb(58, 56, 56);
   color: white;
@@ -24,4 +29,9 @@ fieldset {
 
 button:hover {
   cursor: pointer;
+}
+
+footer {
+  background-color: rgb(58, 56, 56);
+  color: white;
 }
