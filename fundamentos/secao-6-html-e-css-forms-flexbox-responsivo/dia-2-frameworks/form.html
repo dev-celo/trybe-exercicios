@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
   <title>TrybeTrip</title>
@@ -17,46 +17,87 @@
   </header>
 
   <section class="container container-sm">
-    <form action="" method="get">
+    <form action="" method="get" id="form">
       <fieldset>
         <section class="inputs">
           <label for="name"  class="form-check-label">Nome:
-            <input class="form-control" type="text" name="name" id="name" minlength="5" maxlength="40">
+            <input 
+              class="form-control" 
+              type="text" 
+              name="name" 
+              id="name"
+            >
           </label>
         </section>
   
         <section class="inputs">
           <label for="name"  class="form-check-label">Email:
-            <input class="form-control" type="email" name="email" id="email" required minlength="10" maxlength="50">
+            <input 
+              class="form-control"
+              type="email"
+              name="email"
+              id="email"
+            >
           </label>
         </section>
   
         <section class="inputs mt-3">
           <h2>Destino preferido:</h2>
           <label for="name-1"  class="form-check-label ms-2">
-            <input class="form-check-input" type="radio" name="opcao" id="name-1" value="cid" checked>
+            <input 
+              class="form-check-input"
+              type="radio"
+              name="opcao"
+              id="name-1"
+              value="cid"
+              checked
+            >
             Cidade
           </label>
   
           <label for="name-2"  class="form-check-label ms-2">
-            <input class="form-check-input" type="radio" name="opcao" id="name-2" value="cam">
+            <input 
+              class="form-check-input"
+              type="radio"
+              name="opcao"
+              id="name-2"
+              value="cam"
+            >
             Campo
           </label>
   
           <label for="name-3"  class="form-check-label ms-2">
-            <input class="form-check-input" type="radio" name="opcao" id="name-3" value="pra">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="opcao"
+              id="name-3"
+              value="pra"
+            >
             Praia
           </label>
   
           <label for="name-4"  class="form-check-label ms-2">
-            <input class="form-check-input" type="radio" name="opcao" id="name-4" value="mon">
+            <input
+              class="form-check-input" 
+              type="radio" 
+              name="opcao" 
+              id="name-4" 
+              value="mon"
+            >
             Montanhas
           </label>
         </section>
   
         <section class="mb-4 mt-4">
           <h2 class="w-50">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip:</h2>
-          <textarea class="form-control w-50" name="resposta" id="resposta" cols="30" rows="10" maxlength="500"></textarea>
+          <textarea 
+            class="form-control w-50"
+            name="resposta" id="resposta"
+            cols="30"
+            rows="10"
+          >
+          </textarea>
         </section>
   
         <section class="container">
@@ -97,5 +138,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
   <script src="pikaday.js"></script>
+  <script src="validate.js"></script>
 </body>
 </html>
