@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Exercício - JavaEscripito </h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p id="descricao-futura">-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      // Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+     const descricaoFutura = () => {
+      const descricao = document.getElementById('descricao-futura');
+
+      descricao.innerText = 'Daqui há 2 anos me vejo formado na trybe, trabalhando em uma empresa que preserve e valorize os meus trabalhos além de que me dê a oportunidade de sempre continuar crescendo como pessoa e profissional!';
+     };
+
+     const mudaBackgroundMain = () => {
+      const mainContent = document.querySelector('.main-content');
+
+      mainContent.style.background = 'rgb(76,164,109)';
+     };
+
+     const mudaBackgroundCenter = () => {
+      const centerContent = document.querySelector('.center-content');
+
+      centerContent.style.background = 'white';
+     };
+
+     const maiusculo = () => {
+      const paragrafo = document.querySelector('p');
+
+      paragrafo.innerText = paragrafo.innerText.toUpperCase();
+     };
+
+    //  Consertando erro do título
+    const h1 = document.querySelector('h1');
+     h1.innerText = 'Exercício - JavaScript';
+
+     descricaoFutura();
+     mudaBackgroundMain();
+     mudaBackgroundCenter();
+     maiusculo();
+    </script>
+  </body>
+</html>
