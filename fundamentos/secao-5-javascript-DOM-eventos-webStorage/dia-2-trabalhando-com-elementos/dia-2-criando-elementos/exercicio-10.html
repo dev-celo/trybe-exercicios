@@ -14,6 +14,7 @@
         
         let criarH1 = document.createElement('h1');
         criarH1.innerText = 'Exercício - JavaScript DOM';
+        criarH1.classList = 'title';
         
         body.appendChild(criarH1);
       };
@@ -96,10 +97,13 @@
         for (let index = 0; index < 3; index += 1) {
           let h3 = document.createElement('h3');
           h3.innerText = 'Primeiro H3';
+          h3.classList = 'description'
 
           main.appendChild(h3);
         }
       };
+
+      
 
 
       titleBody();
