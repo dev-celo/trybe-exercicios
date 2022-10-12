@@ -9,6 +9,26 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+      const titleBody = () => {
+        let body = document.querySelector('body');
+        
+        let criarH1 = document.createElement('h1');
+        criarH1.innerText = 'Exercício - JavaScript DOM';
+        
+        body.appendChild(criarH1);
+      };
+
+      const mainInBody = () => {
+        let body = document.querySelector('body');
+        
+        let criarmain = document.createElement('main');
+        criarmain.classList = 'main-content';
+
+        body.appendChild(criarmain);
+      };
+
+      titleBody();
+      mainInBody();
     </script>
   </body>
 </html>
