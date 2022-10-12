@@ -9,6 +9,57 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+      const titleBody = () => {
+        let body = document.querySelector('body');
+        
+        let criarH1 = document.createElement('h1');
+        criarH1.innerText = 'Exercício - JavaScript DOM';
+        
+        body.appendChild(criarH1);
+      };
+
+      const mainInBody = () => {
+        let body = document.querySelector('body');
+        
+        let criarmain = document.createElement('main');
+        criarmain.classList = 'main-content';
+
+        body.appendChild(criarmain);
+      };
+
+      const sectionInMain = () => {
+        let main = document.querySelector('main');
+
+        let criarsection = document.createElement('section');
+        criarsection.classList = 'center-content';
+
+        main.appendChild(criarsection);
+      };
+
+      const pInSection = () => {
+        let section = document.querySelector('section');
+
+        let criarP = document.createElement('p');
+        criarP.innerText = 'lorem ipsum dolor amet sit! lorem ipsum dolor amet sit! lorem ipsum dolor amet sit! lorem ipsum dolor amet sit!';
+
+        section.appendChild(criarP);
+      };
+
+      const sectionLeftInMain = () => {
+        let main = document.querySelector('main');
+
+        let criarsection = document.createElement('section');
+        criarsection.classList = 'left-content';
+
+        main.appendChild(criarsection);
+      };
+
+
+      titleBody();
+      mainInBody();
+      sectionInMain();
+      pInSection();
+      sectionLeftInMain();
     </script>
   </body>
 </html>
