@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício</title>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      const titleBody = () => {
+        let body = document.querySelector('body');
+        
+        let criarH1 = document.createElement('h1');
+        criarH1.innerText = 'Exercício - JavaScript DOM';
+        
+        body.appendChild(criarH1);
+      };
+
+      const mainInBody = () => {
+        let body = document.querySelector('body');
+        
+        let criarmain = document.createElement('main');
+        criarmain.classList = 'main-content';
+
+        body.appendChild(criarmain);
+      };
+
+      const sectionInMain = () => {
+        let main = document.querySelector('main');
+
+        let criarsection = document.createElement('section');
+        criarsection.classList = 'center-content';
+
+        main.appendChild(criarsection);
+      };
+
+      const pInSection = () => {
+        let section = document.querySelector('section');
+
+        let criarP = document.createElement('p');
+        criarP.innerText = 'lorem ipsum dolor amet sit! lorem ipsum dolor amet sit! lorem ipsum dolor amet sit! lorem ipsum dolor amet sit!';
+
+        section.appendChild(criarP);
+      };
+
+      const sectionLeftInMain = () => {
+        let main = document.querySelector('main');
+
+        let criarSection = document.createElement('section');
+        criarSection.classList = 'left-content';
+
+        main.appendChild(criarSection);
+      };
+
+      const sectionRightInMain = () => {
+        let main = document.querySelector('main');
+
+        let criarSection = document.createElement('section');
+        criarSection.classList = 'right-content';
+
+        main.appendChild(criarSection);
+      };
+
+      const imgInSectionLeft = () => {
+        const sectionLeft = document.querySelector('.left-content');
+
+        let criarImg = document.createElement('img');
+        criarImg.classList = 'small-image';
+        criarImg.src = 'https://picsum.photos/200';
+
+        sectionLeft.appendChild(criarImg);
+      };
+
+      const arrayInSectionRight = () => {
+        const sectionRight = document.querySelector('.right-content');
+        const array = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+        let criarOl = document.createElement('ol');
+        sectionRight.appendChild(criarOl);
+        
+        let ol = document.querySelector('ol');
+      
+        for (let index = 0; index < array.length; index += 1) {
+          let createLi = document.createElement('li');
+          createLi.innerText = array[index];
+          
+          ol.appendChild(createLi);
+        };
+        
+      };
+
+
+      titleBody();
+      mainInBody();
+      sectionInMain();
+      pInSection();
+      sectionLeftInMain();
+      sectionRightInMain();
+      imgInSectionLeft();
+      arrayInSectionRight();
+    </script>
+  </body>
+</html>

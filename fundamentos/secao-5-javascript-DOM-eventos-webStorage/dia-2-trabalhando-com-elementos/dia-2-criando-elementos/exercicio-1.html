@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício</title>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      const titleBody = () => {
+        let body = document.querySelector('body');
+        
+        let criarH1 = document.createElement('h1');
+        criarH1.innerText = 'Exercício - JavaScript DOM';
+        
+        body.appendChild(criarH1);
+      };
+
+      titleBody();
+    </script>
+  </body>
+</html>
