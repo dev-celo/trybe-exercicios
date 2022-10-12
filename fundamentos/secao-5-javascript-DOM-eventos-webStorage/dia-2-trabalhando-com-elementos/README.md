@@ -16,3 +16,12 @@ Comece criando algumas coisas:
 7. Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. 8. Esse elemento deve ser filho do section criado no passo 5;
 9. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, … 10. como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 11. Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+
+### Parte II  
+
+1. Adicione a classe title na tag h1 criada;
+2. Adicione a classe description nas 3 tags h3 criadas;
+3. Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+4. Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para 5. centralizar, basta configurar o margin-right: auto da section;
+Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+6. Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
