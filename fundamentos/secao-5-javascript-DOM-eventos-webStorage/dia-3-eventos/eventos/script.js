@@ -68,9 +68,19 @@ const mudarCorFeriado = () => {
   });
 };
 
+const buttonSextaFeira = () => {
+  const div = document.querySelector('.buttons-container');
+
+  const button = document.createElement('button');
+  button.textContent = 'Sexta-feira';
+  button.id = 'btn-friday';
+
+  div.appendChild(button);
+};
 
 
 
 daysOfCalendar();
 createButton();
 mudarCorFeriado();
+buttonSextaFeira();
