@@ -81,6 +81,10 @@ footer {
     margin-bottom: 30px;
   }
 
+  .container {
+    padding: 30px;
+  }
+
   .container-aside {
     display: flex;
   }
@@ -99,8 +103,8 @@ footer {
   .container-section {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     margin: auto;
+    padding: 40px;
   }
 
   .container-section .container-aside {
