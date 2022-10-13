@@ -14,9 +14,9 @@ function createDaysOfTheWeek() {
 createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
+const decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
 const daysOfCalendar = () => {
-  const decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
   const days = document.querySelector('#days');
 
   for (let index = 0; index < decemberDaysList.length; index++) {
@@ -78,9 +78,35 @@ const buttonSextaFeira = () => {
   div.appendChild(button);
 };
 
+const mudarTextSexta = () => {
+  const button = document.querySelector('#btn-friday');
+  const friday = document.querySelectorAll('.friday');
+  const sextas = [4, 11, 18, 25];
+  let sexta = true;
+  
+  button.addEventListener('click', () => {
+    if (sexta === true) {
+      for (let index = 0; index < friday.length; index++) {
+        const element = friday[index];
+        
+        element.innerText = 'Sextou'
+      }
+    sexta = false;
+    }else {
+      for (let index = 0; index < friday.length; index++) {
+        const element = friday[index];
+        
+        element.innerText = sextas[index]
+      }
+      sexta = true;
+    }
+  });
+};
+
 
 
 daysOfCalendar();
 createButton();
 mudarCorFeriado();
 buttonSextaFeira();
+mudarTextSexta();
