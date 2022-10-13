@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: xx-large;
+  background-color: rgb(231, 229, 226);
+}
+
+header {
+  background-color: rgba(82, 79, 79, 0.712);
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+header p {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+header nav ul li {
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+aside {
+  padding: 10px;
+  margin: auto;
+}
+
+aside h2 {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+article p {
+  font-size: 1.2em;
+  margin-bottom: 13px;
+}
+
+footer {
+  background-color: rgba(82, 79, 79, 0.712);
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 1.3em;
+}
