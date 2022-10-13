@@ -44,10 +44,33 @@ const createButton = (feriados) => {
   div.appendChild(button);
 };
 
-
+const mudarCorFeriado = () => {
+  const button = document.querySelector('#btn-holiday');
+  const holiday = document.querySelectorAll('.holiday');
+  let feriado = true;
+  
+  button.addEventListener('click', () => {
+    if (feriado === true) {
+      for (let index = 0; index < holiday.length; index++) {
+        const element = holiday[index];
+        
+        element.style.background = '#DCDCDC'
+      }
+    feriado = false;
+    }else {
+      for (let index = 0; index < holiday.length; index++) {
+        const element = holiday[index];
+        
+        element.style.background = 'rgb(238,238,238)'
+      }
+      feriado = true;
+    }
+  });
+};
 
 
 
 
 daysOfCalendar();
 createButton();
+mudarCorFeriado();
