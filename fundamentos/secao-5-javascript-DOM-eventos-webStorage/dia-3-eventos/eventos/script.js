@@ -32,8 +32,16 @@ const daysOfCalendar = () => {
 
     days.appendChild(li)
   }
+};
 
+const createButton = (feriados) => {
+  const div = document.querySelector('.buttons-container');
 
+  const button = document.createElement('button');
+  button.textContent = 'Feriados';
+  button.id = 'btn-holiday';
+
+  div.appendChild(button);
 };
 
 
@@ -42,3 +50,4 @@ const daysOfCalendar = () => {
 
 
 daysOfCalendar();
+createButton();
