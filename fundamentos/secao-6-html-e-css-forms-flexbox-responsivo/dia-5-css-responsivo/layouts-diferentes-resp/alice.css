@@ -85,3 +85,49 @@ footer {
     display: flex;
   }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: rgb(29, 112, 112);
+  }
+
+  header {
+    background-color: rgb(15, 75, 55);
+  }
+
+  .container-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .container-section .container-aside {
+    order: 2;
+  }
+
+  .container-section article {
+    width: 75%;
+    margin-right: 5%;
+    order: 1;
+  }
+
+  .container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+
+  .aside-one {
+    margin: 40px 0;
+  }
+
+  .aside-two {
+    margin: 0;
+  }
+
+  footer {
+    background-color: rgb(15, 75, 55);
+  }
+}
