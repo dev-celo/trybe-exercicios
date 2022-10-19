@@ -105,3 +105,33 @@ body {
     padding: 0;
   }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  #header {
+    position: fixed;
+  }
+
+  #aside {
+    display: none;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  #navigation ul {
+    flex-direction: column;
+  }
+
+  #navigation li a {
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+  }
+}

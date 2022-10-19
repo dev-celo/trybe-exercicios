@@ -18,13 +18,13 @@
 
 <img src='https://content-assets.betrybe.com/prod/240x320:%20tela%20pequena%20.png' alt='Foto da página kitten kare responsiva com dimensões 240x320: tela pequena>
 
-- [ ]O elemento com id aside deve desaparecer;
+- [x]O elemento com id aside deve desaparecer;
 
-- [ ]O elemento body não deve ter padding;
+- [x]O elemento body não deve ter padding;
 
-- [ ]As imagens não devem exceder a largura da tela;
+- [x]As imagens não devem exceder a largura da tela;
 
-- [ ]Os itens dentro do elemento navigation devem aparecer cada um em sua própria linha;
+- [x]Os itens dentro do elemento navigation devem aparecer cada um em sua própria linha;
 
-- [ ]O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela, mesmo após a pessoa usuária rolar a página.
+- [x]O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela, mesmo após a pessoa usuária rolar a página.
 
