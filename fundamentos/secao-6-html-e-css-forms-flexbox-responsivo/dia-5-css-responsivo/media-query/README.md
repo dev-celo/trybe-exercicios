@@ -4,7 +4,7 @@
 
 ### Realize as seguintes tarefas:
 
-- [] Adicione uma media query no arquivo CSS e as regras necessárias para que a página se pareça com a imagem abaixo quando ela for impressa. Especificamente:
+- [x] Adicione uma media query no arquivo CSS e as regras necessárias para que a página se pareça com a imagem abaixo quando ela for impressa. Especificamente:
 
 - [x] Os elementos com id header, navigation e footer devem desaparecer;
 
