@@ -78,3 +78,14 @@ body {
   padding: 20px;
   height: 1%;
 }
+
+/* Media querys */
+
+@media print {
+  #header, 
+  #navigation, 
+  #footer {
+    display: none;
+    color: pink;
+  }
+}
