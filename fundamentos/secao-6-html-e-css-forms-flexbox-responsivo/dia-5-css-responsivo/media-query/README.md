@@ -8,6 +8,6 @@
 
 - [x] Os elementos com id header, navigation e footer devem desaparecer;
 
-- [] O elemento com id aside deve ser mostrado abaixo do conteúdo principal.
+- [x] O elemento com id aside deve ser mostrado abaixo do conteúdo principal.
 
 <img src='https://content-assets.betrybe.com/prod/Visualiza%C3%A7%C3%A3o%20da%20p%C3%A1gina%20antes%20da%20impress%C3%A3o.png' alt='Foto do site kitten keren na aba de impressão'>
