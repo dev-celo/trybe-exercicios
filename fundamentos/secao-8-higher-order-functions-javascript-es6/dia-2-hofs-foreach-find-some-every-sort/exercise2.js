@@ -62,3 +62,19 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+function smallerName() {
+  let nameBook;
+  menor = 100;
+  // escreva aqui o seu código
+  books.forEach( (book) => {
+    if (book.name.length < menor) {
+      nameBook = book.name.length;
+      menor = book.name.length;
+    }
+  } )
+  // Variável nameBook que receberá o valor do menor nome;
+  return nameBook;
+}
+
+console.log(smallerName());
