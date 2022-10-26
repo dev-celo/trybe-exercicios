@@ -62,3 +62,7 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const getNamedBook = () => books.find( (book) => (book.name.length === 26)).name;
+
+console.log(getNamedBook());
