@@ -19,5 +19,5 @@ Estes exercícios praticam os conceitos de Higher Order Functions associados a o
 - [x] Retorne o nome do livro de menor nome.
 - [x] Ordene os livros por data de lançamento em ordem decrescente.
 - [x] Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
-- [ ] Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
+- [x] Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
 - [ ] Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
