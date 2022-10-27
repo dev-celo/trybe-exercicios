@@ -62,3 +62,19 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+let newArraysOfBook = [];
+
+const arrayOfObjects = (arrayOfBooks) => {
+  return arrayOfBooks.map( (book) => {
+    newArraysOfBook.push( {
+      age: book.releaseYear - book.author.birthYear,
+      nome: book.author.name,
+    } );
+  } )
+};
+
+const newArraySort = (array) => array.sort( (a, b) => a.age - b.age); 
+
+arrayOfObjects(books);
+
+newArraySort(newArraysOfBook);
