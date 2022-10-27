@@ -62,3 +62,8 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const filterGenre = (array) => array
+  .filter( (book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
+
+filterGenre(books);
