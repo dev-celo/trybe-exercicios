@@ -62,3 +62,29 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const authorWith3DotsOnName = (array) => array.map(element => element.author.name);
+
+let authorsName = authorWith3DotsOnName(books).map(book => book.split(' '));
+
+let name3Dot = () => {
+  let nameOf3Dots
+  authorsName.forEach((book) => {
+    if(book[0].endsWith('.') && book[1].endsWith('.') && book[2].endsWith('.')) {
+      nameOf3Dots = book.toString().replace(/,/g, ' ');
+    }
+  });
+  return nameOf3Dots;
+}
+
+let nameOfBook = (books) => {
+  let nameOfBook;
+  books.forEach( (book) => {
+    if(book.author.name === name3Dot()) {
+      nameOfBook = book.name;
+    }
+  } )
+  return nameOfBook;
+}
+
+console.log(nameOfBook(books));

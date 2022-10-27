@@ -16,7 +16,7 @@ Em cada exercício, será pedido que você encontre ou produza alguma informaç�
 
 - [x] Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
-- [] Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+- [x] Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
-- [] Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
+- [x] Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
