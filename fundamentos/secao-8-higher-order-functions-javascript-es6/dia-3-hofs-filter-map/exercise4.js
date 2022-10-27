@@ -62,3 +62,7 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const BooksWithMoreSixtyYears = (array) => array.filter( (book) => (2020 - book.releaseYear) > 60);
+
+let booksOrdered = BooksWithMoreSixtyYears(books).sort( (a, b) => a.releaseYear - b.releaseYear);
