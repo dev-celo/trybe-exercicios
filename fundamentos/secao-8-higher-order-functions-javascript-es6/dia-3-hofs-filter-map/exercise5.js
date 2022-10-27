@@ -62,3 +62,13 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const fantasyOrScienceFictionAuthors = (array) => array
+  .filter( (book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
+
+
+let nameOfAuthors = fantasyOrScienceFictionAuthors(books).map( (book) => book.author.name);
+
+let nameOfAuthorsOrdered = nameOfAuthors.sort();
+
+console.log(nameOfAuthorsOrdered);
