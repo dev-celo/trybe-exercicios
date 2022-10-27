@@ -62,3 +62,9 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const oldBooks = (array) => array.filter( (book) => (2020 - book.releaseYear) > 60);
+
+const nameOfOlderBooks = oldBooks(books).map( (book) => book.name);
+
+console.log(nameOfOlderBooks);
