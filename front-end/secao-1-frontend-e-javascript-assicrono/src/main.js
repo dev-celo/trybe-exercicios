@@ -12,7 +12,7 @@ button.addEventListener('click', (event) => {
     cpf: validator.isTaxID(inputValue.value, 'pt-BR'),
     hexColor: validator.isHexadecimal(inputValue.value),
     email: validator.isEmail(inputValue.value),
-    uuid: validator.isUUID(inputValue.value),
+    uuid: validator.isUUID(inputValue.value, 4),
     url: validator.isURL(inputValue.value),
   }
 
