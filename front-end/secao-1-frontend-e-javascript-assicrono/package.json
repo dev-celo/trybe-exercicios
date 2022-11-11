@@ -1,0 +1,17 @@
+{
+  "name": "validator-form",
+  "version": "1.0.0",
+  "description": "Validar formulário.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "author": "Marcelo H P Silva",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-trybe-frontend": "^1.3.1",
+    "validator": "^13.7.0",
+    "vite": "^3.2.3"
+  }
+}
