@@ -6,7 +6,7 @@ Vamos criar uma aplicação que busca a imagem e o nome de uma super heroína ou
 
 - [x] Crie um projeto npm do zero
 
-- [ ] Estruture uma página HTML que contenha: um card com a imagem da super heroína ou do super herói e um botão
+- [x] Estruture uma página HTML que contenha: um card com a imagem da super heroína ou do super herói e um botão
 
 - [ ] O card deve conter a imagem e o nome da pessoa. Esses dados serão providos pela API (Se liga aí: você pode ler a documentação da API para saber exatamente quais campos você deve utilizar aqui)
 
