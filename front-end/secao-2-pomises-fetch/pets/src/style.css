@@ -1,0 +1,116 @@
+:root {
+  font-size: 62.5%; /*1 rem = 10px*/
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(21, 28, 68) , rgb(71, 81, 177));
+  color: white;
+}
+
+header {
+  background-color: rgb(21, 28, 68);
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 0 1em rgb(71, 81, 177);
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+}
+
+header span {
+  color: rgb(62, 218, 218);
+  font-size: 4rem;
+  margin-top: .4rem;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  gap: 1rem;
+}
+
+button {
+  width: 15rem;
+  padding: 1rem;
+  border: none;
+  background-color: rgb(62, 218, 218);
+  border-radius: 10px;
+}
+
+button:hover,
+button:active {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(34, 128, 128);
+}
+
+#image {
+  display: flex;
+  align-items: center;
+  margin-top: 4%;
+  flex-direction: column;
+}
+
+#image p {
+  font-size: 2rem;
+  margin-bottom: 2%;
+  background-color: rgb(21, 28, 68);
+  border-radius: 3px;
+  padding: .5rem;
+}
+
+img {
+  width: 45rem;
+  height: 55rem;
+}
+
+footer {
+  font-size: 2rem;
+  background-color: rgb(21, 28, 68);
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  bottom: -45%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  img {
+    width: 30rem;
+    height: 40rem;
+  }
+  #buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    bottom: -1%;
+  }
+}

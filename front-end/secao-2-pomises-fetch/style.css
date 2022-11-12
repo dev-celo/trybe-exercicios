@@ -1,0 +1,81 @@
+:root {
+  font-size: 62.5%; /*1 rem = 10px*/
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(13, 13, 14));
+  color: white;
+}
+
+header {
+  background-color: rgb(0, 0, 0); 
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 0 1em rgb(177, 107, 107);
+  font-size: 2rem;
+}
+
+header span {
+  color: brown;
+  font-size: 3.5rem;
+  margin-top: .4rem;
+}
+
+#text {
+  margin-top: 7%;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buttons {
+  margin-top: 5%;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;  
+}
+
+button {
+  padding: 1rem .2rem;
+  color: wheat;
+  background-color: rgb(206, 25, 25);
+  border: none;
+  border-radius: .7rem;
+  margin-top: 2%;
+}
+
+button a {
+  padding: 4rem 3.4rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+
+button a:hover {
+  color: black;
+}
+
+footer {
+  font-size: 2rem;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}

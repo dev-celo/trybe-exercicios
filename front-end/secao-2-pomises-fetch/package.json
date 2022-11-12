@@ -1,0 +1,25 @@
+{
+  "name": "secao-2-pomises-fetch",
+  "version": "1.0.0",
+  "description": "Exercícios-para-pratica-de-promises-e-fetch",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-celo/trybe-exercicios.git"
+  },
+  "author": "Marcelo H P Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-celo/trybe-exercicios/issues"
+  },
+  "homepage": "https://github.com/dev-celo/trybe-exercicios/front-end#readme",
+  "dependencies": {
+    "sweetalert2": "^11.6.8",
+    "vite": "^3.2.3"
+  }
+}
