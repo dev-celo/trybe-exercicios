@@ -8,19 +8,19 @@ Vamos criar uma aplicação que busca a imagem e o nome de uma super heroína ou
 
 - [x] Estruture uma página HTML que contenha: um card com a imagem da super heroína ou do super herói e um botão
 
-- [ ] O card deve conter a imagem e o nome da pessoa. Esses dados serão providos pela API (Se liga aí: você pode ler a documentação da API para saber exatamente quais campos você deve utilizar aqui)
+- [x] O card deve conter a imagem e o nome da pessoa. Esses dados serão providos pela API (Se liga aí: você pode ler a documentação da API para saber exatamente quais campos você deve utilizar aqui)
 
-- [ ] O botão deve gerar um número aleatório, que será o ID utilizado para a API (Se liga aí: você pode simular um erro da API se solicitar um id maior do que a APi pode retornar. Por exemplo: há 500 ids cadastrados e você solicita um número aleatório até 750)
+- [x] O botão deve gerar um número aleatório, que será o ID utilizado para a API (Se liga aí: você pode simular um erro da API se solicitar um id maior do que a APi pode retornar. Por exemplo: há 500 ids cadastrados e você solicita um número aleatório até 750)
 
-- [ ] O botão deve buscar na API pelo ID e renderizar na tela o nome e a imagem da pessoa
+- [x] O botão deve buscar na API pelo ID e renderizar na tela o nome e a imagem da pessoa
 Caso haja algum erro durante a requisição à API, a aplicação deve emitir um alerta informando o erro ocorrido
 
-- [ ] Atenção: A API SuperHero API utiliza um token de acesso criado com uma conta no Facebook. Caso você não tenha ou não deseje utilizar uma conta do Facebook, há essa outra API que possui os mesmos dados, porém retornados de uma forma diferente. Aconselhamos a você a olhar como essa API funciona e, ao final do gabarito, conferir uma solução proposta usando a mesma.
+Atenção: A API SuperHero API utiliza um token de acesso criado com uma conta no Facebook. Caso você não tenha ou não deseje utilizar uma conta do Facebook, há essa outra API que possui os mesmos dados, porém retornados de uma forma diferente. Aconselhamos a você a olhar como essa API funciona e, ao final do gabarito, conferir uma solução proposta usando a mesma.
 
 ## Bônus - Select Pet
 Você gosta de ver imagens de gatinhos e cachorrinhos fofinhos? Então você vai gostar desse exercício! Vamos criar uma aplicação que exibe fotos aleatórias de cães e gatos. Você poderá escolher qual tipo de animal quer ver a imagem, ou pode escolher a opção “Surprise me” e deixar a sorte definir qual pet será exibido. Gostou da ideia? Vamos para as etapas necessárias:
 
-- [ ] Crie um novo projeto usando o npm. Instale e configure o vite para usá-lo como web server.
+- [x] Crie um novo projeto usando o npm. Instale e configure o vite para usá-lo como web server.
 
 - [ ] Crie uma nova página que tenha os seguintes elementos:
 um botão com o texto Get random dog;
