@@ -69,14 +69,22 @@ button:active {
 
 #image {
   display: flex;
-  justify-content: center;
+  align-items: center;
   margin-top: 4%;
+  flex-direction: column;
+}
 
+#image p {
+  font-size: 2rem;
+  margin-bottom: 2%;
+  background-color: rgb(21, 28, 68);
+  border-radius: 3px;
+  padding: .5rem;
 }
 
 img {
-  width: 50rem;
-  height: 60rem;
+  width: 45rem;
+  height: 55rem;
 }
 
 footer {
@@ -90,3 +98,19 @@ footer {
   justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  img {
+    width: 30rem;
+    height: 40rem;
+  }
+  #buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    bottom: -1%;
+  }
+}

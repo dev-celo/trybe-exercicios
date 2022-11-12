@@ -99,12 +99,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  footer {
-    bottom: -8%;
+  header {
+    flex-direction: column;
   }
-
   button {
     padding: 1.5rem 2.5rem;
     margin-top: 10%;
+  }
+  footer {
+    bottom: -8%;
   }
 }
