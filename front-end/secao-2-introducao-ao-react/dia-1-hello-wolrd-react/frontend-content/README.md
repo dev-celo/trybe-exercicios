@@ -19,7 +19,7 @@
 
 ---
 
-## - [] Crie um arquivo chamado `Content.js` que representará o componente `Content`
+## - [x] Crie um arquivo chamado `Content.js` que representará o componente `Content`
 
 - Este arquivo precisa ser criado na pasta `src`
 
@@ -83,7 +83,7 @@
 
 ---
 
-## - [] Crie um arquivo chamado `Footer.js` que representará o componente `Footer`
+## - [x] Crie um arquivo chamado `Footer.js` que representará o componente `Footer`
 
 - Este arquivo precisa ser criado na pasta `src`;
 
@@ -119,7 +119,7 @@
 
 ---
 
-# - [] Exercício extra (esse não é testado pelo avaliador)
+# - [x] Exercício extra (esse não é testado pelo avaliador)
 
 <details>
   <summary> Estilize a aplicação adicionando classes que vão aprimorar seus componentes, de modo que cada conteúdo listado seja um Card</summary><br />
