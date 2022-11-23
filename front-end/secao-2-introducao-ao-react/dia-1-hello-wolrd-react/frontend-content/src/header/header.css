@@ -1,0 +1,13 @@
+header {
+  background-color: rgb(27, 26, 26);
+  color: aliceblue;
+  padding: .8rem;
+}
+
+header h1 {
+  letter-spacing: -1px;
+}
+
+header span {
+  color: brown;
+}
