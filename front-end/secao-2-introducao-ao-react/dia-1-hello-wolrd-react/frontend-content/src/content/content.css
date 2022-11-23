@@ -1,0 +1,29 @@
+.card{
+  width: 13rem;
+  height: 15rem;
+  padding: 2rem 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex-direction: column;
+  background-color: rgb(27, 26, 26);
+  color: aliceblue;
+}
+
+.card h3 {
+  background-color: brown;
+  padding: .5rem;
+}
+
+.card p {
+  text-align: inherit;
+}
+
+.card span {
+  font-size: .8rem;
+  margin-top: -10px;
+  color: brown;
+  margin-left: -140px;
+}
