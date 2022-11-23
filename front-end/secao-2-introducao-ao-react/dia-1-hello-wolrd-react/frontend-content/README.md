@@ -1,6 +1,6 @@
 # Boas-vindas ao repositório do exercício Frontend Content!
 
-## - [] Crie um arquivo chamado `Header.js` que representará o componente `Header`
+## - [x] Crie um arquivo chamado `Header.js` que representará o componente `Header`
 
 - Este arquivo precisa ser criado na pasta `src`;
 
