@@ -1,14 +1,12 @@
 import React from 'react'
+import Card from '../card/Card';
 
 class Pokemon extends React.Component {
   render() { 
-    const { name, type, image, averageWeight: {value}} = this.props.pokemon;
+    const { pokemon } = this.props;
     return (
       <li>
-        <h3>Nome: {name}</h3>
-        <p>Tipo: {type}</p>
-        <span>Peso: {value}kg</span>
-        <img src={image} alt={name} />
+        <Card pokemon = {pokemon}/>
       </li>
     );
   }
