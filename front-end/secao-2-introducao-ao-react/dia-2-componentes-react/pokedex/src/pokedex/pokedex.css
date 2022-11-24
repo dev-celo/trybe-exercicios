@@ -1,0 +1,22 @@
+header {
+  padding: 1rem;
+  background-color: rgb(39, 37, 37);
+  color: white;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5% auto;
+  width: 80%;
+}
+
+@media screen AND (max-width: 600px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 0;
+    gap: 1rem;
+  }
+}

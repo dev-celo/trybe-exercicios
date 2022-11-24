@@ -1,0 +1,28 @@
+#card {
+  border: 2px solid white;
+  color: white;
+  background-color: rgb(39, 37, 37);
+  width: 40%;
+  height: 50%;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+#card h3 {
+  color: brown;
+  margin-bottom: 2rem;
+}
+
+#card span {
+  color: brown;
+}
+
+img {
+  width: 75%;
+}
+
+@media screen AND (max-width: 600px) {
+  #card {
+    width: 60%;
+  }
+}
