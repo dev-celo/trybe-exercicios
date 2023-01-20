@@ -1,8 +1,8 @@
 
 describe('Testando funcção randomica com mock fn', () => {
-  const retornaNumeroAleatorio = () => Math.floor(Math.random() * 100);
+  /* const retornaNumeroAleatorio = () => Math.floor(Math.random() * 100);
   
-  const divisivelPorDois = () => (retornaNumeroAleatorio() % 2) === 0;
+  const divisivelPorDois = () => (retornaNumeroAleatorio() % 2) === 0; */
   test("#divisivelPorDois", () => {
     // testando se a função foi chamada
     const divisivelPorDois = jest
