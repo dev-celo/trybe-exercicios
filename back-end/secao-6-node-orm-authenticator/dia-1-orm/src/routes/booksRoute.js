@@ -12,4 +12,6 @@ booksRoute.post('/', booksController.create);
 
 booksRoute.put('/:id', booksController.update);
 
+booksRoute.delete('/:id', booksController.remove);
+
 module.exports = booksRoute;

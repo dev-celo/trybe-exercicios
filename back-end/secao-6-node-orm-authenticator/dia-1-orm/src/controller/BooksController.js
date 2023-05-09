@@ -40,4 +40,18 @@ const update = async (req, res) => {
   }
 }
 
-module.exports = { getAll, getById, create, update }
+const remove = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+  const removed = await BooksService.remove(id);
+
+  if (!removed) return res.status(404).json({ message: 'Book not found' });
+
+  res.status(200).json({ message: 'Book removed' });
+  } catch (err) {
+    return res.status(400).json(err.message);
+  }
+}
+
+module.exports = { getAll, getById, create, update, remove }
