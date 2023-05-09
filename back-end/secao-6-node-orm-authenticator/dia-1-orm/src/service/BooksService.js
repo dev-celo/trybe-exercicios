@@ -6,4 +6,6 @@ const getAll = async () => {
   return books;
 };
 
-module.exports = { getAll }
+module.exports = {
+  getAll,
+};

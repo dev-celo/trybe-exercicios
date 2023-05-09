@@ -1,3 +1,3 @@
-import BooksService from './BooksService';
+const BooksService = require('./BooksService');
 
 module.exports = { BooksService };

@@ -1,4 +1,4 @@
-const BookModel = (sequelize, DataTypes) => {
+module.exports = (sequelize, DataTypes) => {
   const Book = sequelize.define('Book', {
     title: DataTypes.STRING,
     author: DataTypes.STRING,
@@ -8,6 +8,4 @@ const BookModel = (sequelize, DataTypes) => {
   });
 
   return Book;
-}
-
-module.exports = BookModel;
+};
